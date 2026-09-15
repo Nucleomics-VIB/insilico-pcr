@@ -46,7 +46,7 @@ REM: Snakemake does not always install well with bioconda and can be removed fro
 
 * the results of a 16S In-Silico PCR experiment are presented in **[ZymoPromethion_even_Results](ZymoPromethion_even_Results.md)**.
 
-* the results of using other databases for the **[MetONTIIME](https://github.com/MaestSi/MetONTIIME)** classification are reported **<a href="https://github.com/Nucleomics-VIB/InSilico_PCR/raw/master/results/Metontiime_with_other_DBs.pdf" target="_blank">here</a>**.
+* the results of using other databases for the **[MetONTIIME](https://github.com/MaestSi/MetONTIIME)** classification are reported **<a href="https://github.com/Nucleomics-VIB/insilico-pcr/raw/main/results/Metontiime_with_other_DBs.pdf" target="_blank">here</a>**.
 
 ## Future plans
 

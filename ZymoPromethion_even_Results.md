@@ -24,7 +24,7 @@ The next figure shows arrows indicating the location of the 16S primers used her
 
 ## Method
 
-The read sets produced by our [code](https://github.com/Nucleomics-VIB/InSilico_PCR/raw/master/InSilico_PCR.sh) were submitted to the [ONT 16S analysis pipeline](https://nanoporetech.com/nanopore-sequencing-data-analysis) to be classified and allow direct comparison of the three amplicon options at different levels (only Genus is shown but the full data is provided in the 'results' folder).
+The read sets produced by our [code](https://github.com/Nucleomics-VIB/insilico-pcr/raw/main/InSilico_PCR.sh) were submitted to the [ONT 16S analysis pipeline](https://nanoporetech.com/nanopore-sequencing-data-analysis) to be classified and allow direct comparison of the three amplicon options at different levels (only Genus is shown but the full data is provided in the 'results' folder).
 
 For comparison, 10% of the reads in each set were used for a second analysis using **[MetONTIIME](https://github.com/MaestSi/MetONTIIME)** <sup id="a6">[6](#f6)</sup>
 
@@ -37,7 +37,7 @@ REM: results shown below were obtained with a minimum abundance cutoff of 1% set
 * Epi2ME **genus** results for the **27F-U1492R** in-silico amplicon: [(link)](https://epi2me.nanoporetech.com/workflow_instance/214013?token=E2EC0ED6-D91D-11E9-8C06-8D18643BF1F3)
    * 27F: "AGAGTTTGATCMTGGCTCAG"
    * 1492Rw: "CGGTWACCTTGTTACGACTT"
-   * [epi2me results](https://github.com/Nucleomics-VIB/InSilico_PCR/raw/master/results/27F-U1492Rw_214013_classification_16s_barcode-v1.csv.zip)
+   * [epi2me results](https://github.com/Nucleomics-VIB/insilico-pcr/raw/main/results/27F-U1492Rw_214013_classification_16s_barcode-v1.csv.zip)
 
  ![27F-U1492R_reads](pictures/27F-U1492R_reads.png)
 
@@ -48,7 +48,7 @@ REM: results shown below were obtained with a minimum abundance cutoff of 1% set
 * Epi2ME **genus** results for the **337F-805R** in-silico amplicon: [(link)](https://epi2me.nanoporetech.com/workflow_instance/214508?token=B58DA58A-DB93-11E9-8763-E0CFBA8D1717)
    * 337F: "GACTCCTACGGGAGGCWGCAG"
    * 805R: "GACTACHVGGGTATCTAATCC"
-   * [epi2me results](https://github.com/Nucleomics-VIB/InSilico_PCR/raw/master/results/337F-805R_214508_classification_16s_barcode-v1.csv.zip)
+   * [epi2me results](https://github.com/Nucleomics-VIB/insilico-pcr/raw/main/results/337F-805R_214508_classification_16s_barcode-v1.csv.zip)
 
  ![337F-805R_reads](pictures/337F-805R_reads.png)
 
@@ -59,7 +59,7 @@ REM: results shown below were obtained with a minimum abundance cutoff of 1% set
 * Epi2ME **genus** results for the **515FB-U1492Rw** in-silico amplicon: [(link)](https://epi2me.nanoporetech.com/workflow_instance/214579?token=F654DE94-DC5B-11E9-A3B0-9C43BB8D1717)
    * 515FB: "GTGYCAGCMGCCGCGGTAA"
    * U1492Rw: "CGGTWACCTTGTTACGACTT"
-   * [epi2me results](https://github.com/Nucleomics-VIB/InSilico_PCR/raw/master/results/515FB-U1492Rw_214579_classification_16s_barcode-v1.csv.zip)
+   * [epi2me results](https://github.com/Nucleomics-VIB/insilico-pcr/raw/main/results/515FB-U1492Rw_214579_classification_16s_barcode-v1.csv.zip)
 
  ![515FB_1492Rw_reads](pictures/515FB_1492Rw_reads.png)
 
@@ -126,7 +126,7 @@ We did not invest enough time in using MetONTIIME to allow full comparison to th
 
 The results of a default classification using out of the box parameters (and the PRJNA33175 reference database as described in the MetONTIIME doculentation) are reported in the table below, sorted by the first amplicon counts (*27F-U1492R*). **(§) Due to time/server constrains, only the first 10% of the date were used to classify with MetONTIIME**.
 
-* [metontiime results](https://github.com/Nucleomics-VIB/InSilico_PCR/raw/master/results/MetONTIIME_results.csv) derived from the file **species_counts.txt**.
+* [metontiime results](https://github.com/Nucleomics-VIB/insilico-pcr/raw/main/results/MetONTIIME_results.csv) derived from the file **species_counts.txt**.
 
 | OTU ID                         | 27F-U1492R (§) | 337F-805R (§) | 515FB-U1492Rw (§) | Zymo  | 27F-U1492R (%) | 337F-805R (%) | 515FB-U1492Rw (%) |
 |--------------------------------|----------------|---------------|-------------------|-------|----------------|---------------|-------------------|
