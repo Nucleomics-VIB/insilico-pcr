@@ -1,4 +1,4 @@
-name: InSilico_PCR
+name: insilico-pcr
 channels:
   - defaults
   - bioconda
