@@ -19,18 +19,20 @@
 # version 1.1.3; 2022-02-08
 # rename logs folder to allow consecutive runs
 # add TMPDIR for bbmap and parallel
-# 
+# version 1.1.4; 2026-10-21
+# rename conda env to insilico-pcr (repo renamed from InSilico_PCR)
+#
 # visit our Git: https://github.com/Nucleomics-VIB
 #
-version="1.1.3; 2022-02-08"
+version="1.1.4; 2026-10-21"
 #
 # required once: create a conda env to install the required apps
 # conda env create -f environment.yaml
 # adapt next line to point to the right conda.sh init script
 # see conda activate script for details
 source /etc/profile.d/conda.sh
-conda activate InSilico_PCR || \
-  ( echo "# the conda environment 'InSilico_PCR' was not found on this machine" ;
+conda activate insilico-pcr || \
+  ( echo "# the conda environment 'insilico-pcr' was not found on this machine" ;
     echo "# please read the top part of the script!" \
     && exit 1 )
 

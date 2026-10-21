@@ -9,7 +9,7 @@ The motivation behind this analysis was to simulate 16S long amplicon sequencing
 
 ## Data Availability 
 
-<il>(reproduced from https://github.com/LomanLab/mockcommunity/edit/master/README.md)</il>
+<il>(reproduced from https://github.com/LomanLab/mockcommunity/blob/master/README.md)</il>
 
 |Name|Reads (M)|Yield (G)|FASTQ|Run Folder|Restarts|FAST5|
 |:--|:--|:--|:--|:--|:--|:--|
@@ -35,6 +35,7 @@ The workflow is as follows:
 REM: Snakemake does not always install well with bioconda and can be removed from the file environment.yaml if you encounter issues. It is not used in the current version of this code anyway and was added here for forward compatibility.
 
 * Install the required software using conca or manually based on the list provided in **environment.yaml**. 
+  * The conda environment is named **insilico-pcr**. Before 2026-10-21 it was named **InSilico_PCR**. If you have the old environment, create the new one with **conda env create -f environment.yaml**.
 
 * Set variables, names, and numeric limits in the top of the **InSilico_PCR.sh** script (adjust the number of threads to the available cores in your own machine)
 

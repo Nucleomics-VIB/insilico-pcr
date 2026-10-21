@@ -1,7 +1,7 @@
 ---
 # path to conda on my own machine (adapt for yours)
 condapath: "/opt/miniconda3/condabin"
-condaenv: "InSilico_PCR"
+condaenv: "insilico-pcr"
 
 # threads for parallel tasks
 thr: 80
