@@ -21,10 +21,13 @@
 # add TMPDIR for bbmap and parallel
 # version 1.1.4; 2026-10-21
 # rename conda env to insilico-pcr (repo renamed from InSilico_PCR)
+# version 1.1.5; 2026-10-22
+# environment.yaml: conda-forge only, python >=3.10, certifi>=2026.10.19
+# (eMudhra CA incident); recreate the conda env
 #
 # visit our Git: https://github.com/Nucleomics-VIB
 #
-version="1.1.4; 2026-10-21"
+version="1.1.5; 2026-10-22"
 #
 # required once: create a conda env to install the required apps
 # conda env create -f environment.yaml
