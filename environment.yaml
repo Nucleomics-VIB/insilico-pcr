@@ -1,15 +1,18 @@
 name: insilico-pcr
+# eMudhra CA incident (2026-10-20, #5): conda-forge only (no defaults),
+# python >=3.10 because conda-forge certifi 2026.10.19 needs it.
 channels:
-  - defaults
+  - conda-forge
   - bioconda
-  - r
 dependencies:
   - git
   - git-lfs
   - snakemake-minimal
-  - python =3.6
+  - python >=3.10
   - bioawk
   - bbmap
   - pigz
-  - pip
+  - pip>=26.2.2
+  - certifi>=2026.10.19
+  - ca-certificates
   - r-essentials
